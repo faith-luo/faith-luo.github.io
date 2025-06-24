@@ -1,0 +1,16 @@
+@media print {
+	@page {
+		size: 8.5in 11in;
+		margin:0;
+	}
+	body * {
+		visibility: hidden;
+	}
+	#printarea, #printarea * {
+		visibility: visible;
+	}
+	#printarea {
+		margin: 0;
+		padding: 0;
+	}
+}
