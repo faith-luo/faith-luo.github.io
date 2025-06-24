@@ -9,6 +9,11 @@ body {
     font-size: 11pt;
 }
 
+ruby rt
+{
+    font-size:0.7em;
+}
+
 a.target
 {
     color: black;
