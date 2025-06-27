@@ -156,6 +156,12 @@ a {
 	}
 }
 
+.atsign::after
+{
+	content:'[at]';
+}
+
+
 @media print {
 	p.pagebreak {
 		clear: both;		
@@ -163,4 +169,8 @@ a {
 		background: red;
 		height: 2.5em;
 	}	
+	.atsign::after
+	{
+		content: '@';
+	}
 }

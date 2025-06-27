@@ -154,12 +154,19 @@ a:active {
   justify-content: space-between;
 }
 
+.atsign::after {
+  content: "[at]";
+}
+
 @media print {
   p.pagebreak {
     clear: both;
     page-break-before: always;
     background: red;
     height: 2.5em;
+  }
+  .atsign::after {
+    content: "@";
   }
 }
 
