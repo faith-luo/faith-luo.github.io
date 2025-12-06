@@ -44,6 +44,8 @@ a {
 .header {
 	padding-bottom:0.5em;
 	border-bottom:2px solid $cv-text-red;
+	
+
 
 	display:flex;
 	flex-direction:row;
@@ -97,8 +99,14 @@ a {
 	}
 
 }
+.hline {
+	border-bottom:1px dashed $cv-text-red;	
+}
 .section {
 	border-bottom:1px dashed $cv-text-red;
+	.noborder {
+		border-bottom: none;
+	}
 	
 	padding:6px 0;
 	display:flex;
