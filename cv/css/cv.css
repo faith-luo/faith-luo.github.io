@@ -137,6 +137,9 @@ a:active {
 .section .label h3 {
   font-size: 12pt;
 }
+.section .label h3 .nobold {
+  font-weight: 400;
+}
 .section .label p {
   color: #af0000;
 }

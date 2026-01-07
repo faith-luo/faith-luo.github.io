@@ -136,6 +136,10 @@ a {
 		align-items:baseline;
 		h3 {
 			font-size:12pt;
+			.nobold
+			{
+				font-weight: 400;
+			}
 		}
 		p {
 			color:$cv-text-red;
